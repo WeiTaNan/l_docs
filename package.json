@@ -1,0 +1,21 @@
+{
+  "name": "docs_all",
+  "version": "1.0.0",
+  "description": "文档",
+  "main": "index.js",
+  "author": "weituotian",
+  "license": "MIT",
+  "scripts": {
+    "doc": "docsify serve ./",
+    "sidebar": "node ./_node/genv2.js"
+  },
+  "dependencies": {
+    "ast-plugin": "^0.0.7",
+    "docsify-cli": "^4.4.1",
+    "remark-parse": "^8.0.2",
+    "remark-stringify": "^8.1.0",
+    "unified": "^9.0.0",
+    "unist-util-remove-position": "^2.0.1",
+    "unist-util-visit-parents": "^3.0.2"
+  }
+}

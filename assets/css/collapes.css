@@ -1,0 +1,37 @@
+
+/* 侧边栏的自动折叠 */
+/* 侧边栏的图标样式 */
+
+.sidebar-nav > ul > li ul {
+    display: none;
+}
+
+.app-sub-sidebar {
+    display: none;
+}
+
+.app-sub-sidebar.open {
+    display: block;
+}
+
+.sidebar-nav .open > ul:not(.app-sub-sidebar),
+.sidebar-nav .active:not(.hold) > ul {
+    display: block;
+}
+
+.active + ul.app-sub-sidebar {
+    display: block;
+}
+
+.sidebar-nav .folder-item:before {
+    /*content: ">";*/
+    /*content: "\f115";*/
+    content: "\f061";
+    float: left;
+    padding: 0 4px;
+    transition: transform ease 500ms;
+}
+
+.sidebar-nav .open > .folder-item:before{
+    transform: rotate(90deg);
+}
