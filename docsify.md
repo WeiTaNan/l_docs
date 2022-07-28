@@ -9,7 +9,6 @@
 ### docsify.js的sidebar会自动设置scrolltop，这部分代码需要注释，否则会和自动折叠插件相互冲突
 ```javascript
 //在 docsify.js找到以下代码
-
 // Scroll into view
 if (!hoverOver && body.classList.contains('sticky')) {
   var height = sidebar.clientHeight;
@@ -22,7 +21,6 @@ if (!hoverOver && body.classList.contains('sticky')) {
 
   sidebar.scrollTop = top$1;
 }
-
 ```
 
 ## 插件
@@ -50,3 +48,7 @@ if (!hoverOver && body.classList.contains('sticky')) {
 添加文件扩展名为 `.md`
 
 添加MIME类型为 `text/x-markdown`
+
+
+
+
