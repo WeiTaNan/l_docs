@@ -1,4 +1,4 @@
-## 开发
+<!-- ## 开发
 正式地址
 [http://192.168.0.250/informationManagement/admin](http://192.168.0.250/informationManagement/admin)
 可以用人力资源系统的账号密码登录
@@ -14,5 +14,4 @@ git:
 
 #### 正式数据库：
 
-#### 测试数据库
-
+#### 测试数据库 -->
